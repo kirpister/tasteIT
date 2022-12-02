@@ -1,0 +1,77 @@
+/* ADD RECIPE */
+
+.wrapper {
+    height: 100vh;
+    background-image: url(../assets/salmon.jpg);
+    background-color: rgba(25, 24, 24, 0.6);
+    background-attachment: fixed;
+    background-position: top;
+    background-size: cover;
+    background-blend-mode: multiply;
+}
+    
+h3 {
+    margin: 0 0 2rem 1rem;
+    letter-spacing: 3px;
+}
+  
+form {
+    width: 30vw;
+    height: 70vh;
+}
+  
+input,
+select {
+    display: block;
+    width: 320px;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    border: none;
+    margin: 0 0 .5rem 1rem;
+    background-color: rgba(105, 105, 105, 0.445);
+    color: white;
+    font-family: var(--main-font);
+}
+  
+label {
+    font-size: 0.8rem;
+    line-height: 1.2;
+    color: rgba(255, 255, 255, 0.7);
+    margin: 1rem 0 0.5rem 1.1rem;
+    display: block;
+}
+  
+textarea {
+    width: 320px;
+    height: 70px;
+    margin: 0 0 0 1rem;
+    border-radius: 0.5rem;
+    background-color: rgba(105, 105, 105, 0.445);
+    color: white;
+}
+  
+input,textarea,select:focus {
+    border-color: transparent;
+    outline: none;
+}
+
+.form-cont {
+    margin: 7% 0 0 15%;
+}
+  
+.form-cont button {
+    margin: 0.7rem 0 .5rem 1.2rem;
+}
+  
+.row {
+    display: flex;
+}
+  
+.input2 input {
+    float: right;
+    width: 150px;
+}
+  
+.input1 input {
+    width: 150px;
+}

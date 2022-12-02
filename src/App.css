@@ -1,38 +1,225 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Coda&family=Sriracha&family=Ubuntu&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overscroll-behavior: none;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+:root {
+  --main-font:'Ubuntu', sans-serif;
+  --shrimp-color: rgb(243, 156, 154);
+  --white-color: rgba(255, 255, 255, 0.7);
+  --logo-font: 'Coda', cursive;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/* body {
+  background-color: rgb(15, 17, 20);
+} */
+
+a {
+  text-decoration: none;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+button {
+  width: 130px;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: transparent;
+  border: 1px solid var(--shrimp-color);
+  color: var(--shrimp-color);
+  cursor: pointer;
+  font-family: var(--main-font);
+}
+
+main {
+  min-height: calc(100vh - 110px);
+}
+
+header {
+  height: 70px;
   display: flex;
-  flex-direction: column;
+  justify-content: space-between;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+
+header, footer {
+  background-image: url(./assets/bg_marble.jpg);
+  background-color: rgba(15, 17, 20, 0.2);
+  background-blend-mode: multiply;
+  background-position: bottom;
+}
+
+footer {
+  height: 40px;
+  text-align: center;
+  color: var(--white-color);
+  padding: 10px;
+}
+
+h1 {
+  font-size: 3.5rem;
+  color: var(--white-color);
+  letter-spacing: 0.5rem;
+  font-family: var(--logo-font);
+}
+
+h2 {
+  margin-left: 2.5rem;
+  font-size: 2rem;
+  letter-spacing: 0.5rem;
+  display: flex;
+  justify-content: flex-start;
+  font-family: var(--logo-font);
+  color: var(--white-color);
+}
+
+/* h3 {
+  font-family: var(--main-font);
+  font-size: 1.8rem;
+  letter-spacing: 2px;
+  color: rgba(255, 255, 255, 0.7);
+  margin: 2rem 0 6rem 0;
+} */
+
+nav ul li {
+  display: inline-block;
+}
+
+nav ul li a {
+  list-style-type: none;
+  color: var(--white-color);
+  text-decoration: none;
+  padding: 1rem;
+  letter-spacing: 2px;
+  margin-right: 2rem;
+}
+
+nav a:active {
+  color: var(--shrimp-color);
+}
+
+/* HERO BANNER */
+
+/* .video {
+  width: 100vw;
+  height: auto;
+  z-index: -1;
+  object-fit: cover;
+  position: relative;
+}
+
+.intro-container {
+  width: 40vw;
+  height: 35vh;
+  position: absolute;
+  top: 22%;
+  left: 10%;
+}
+
+
+/* HOME CARDS */
+
+/* .main-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 85%;
+  height: 40vh;
+  margin: 0 auto;
+}
+
+.home-card {
+  width: 25%;
+  height: 25vh;
+  border-radius: 3px;
+}
+
+.home-card h4, p {
+  color: rgba(255, 255, 255, 0.7);
+  margin: 1.5rem 0 1.5rem 1.5rem;
+}
+
+.home-card small {
+  color: var(--shrimp-color);
+  margin: 3.5rem 0 1rem 1.5rem;
+} */
+
+/* ADD RECIPE */
+
+/* .wrapper {
+  height: 100vh;
+  background-image: url(./assets/salmon.jpg);
+  background-color: rgba(25, 24, 24, 0.706);
+  background-attachment: fixed;
+  
+  background-position: top;
+  background-size: cover;
+  background-blend-mode: multiply;
+}
+
+.form-cont {
+  margin: 5rem;
+}
+
+.form-cont button {
+  margin: 0.7rem 0 .5rem 1.2rem;
+}
+
+.form-cont h3 {
+  margin: 0 0 2rem 1rem;
+} */
+
+/* form {
+  width: 30vw;
+  height: 70vh;
+}
+
+input,
+select {
+  display: block;
+  width: 320px;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  border: none;
+  margin: 0 0 .5rem 1rem;
+  background-color: rgba(105, 105, 105, 0.445);
   color: white;
+  font-family: var(--main-font);
+} */
+
+/* label {
+  font-size: 0.8rem;
+  line-height: 1.2;
+  color: rgba(255, 255, 255, 0.7);
+  margin: 1rem 0 0.5rem 1.1rem;
+  display: block;
 }
 
-.App-link {
-  color: #61dafb;
+textarea {
+  width: 320px;
+  height: 70px;
+  margin: 0 0 0 1rem;
+  border-radius: 0.5rem;
+  background-color: rgba(105, 105, 105, 0.445);
+  color: white;
+} */
+/* 
+input,textarea,select:focus {
+  border-color: transparent;
+  outline: none;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.row {
+  display: flex;
 }
+
+.input2 input {
+  float: right;
+  width: 150px;
+}
+
+.input1 input {
+  width: 150px;
+} */

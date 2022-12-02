@@ -1,0 +1,60 @@
+/* HERO BANNER */
+
+body {
+    background-color: rgb(15, 17, 20);
+    font-family: var(--main-font);
+}
+
+h1, button {
+   margin: 1.5rem 0 3rem 1rem;
+}
+
+h3 {
+    font-family: var(--main-font);
+    font-size: 1.8rem;
+    letter-spacing: 2px;
+    color: var(--white-color);
+}
+
+video {
+    width: 100vw;
+    height: auto;
+    /* z-index: -1; */
+    object-fit: cover;
+    position: relative;
+}
+  
+.intro-container {
+    width: 50vw;
+    height: 35vh;
+    position: absolute;
+    top: 15%;
+    left: 10%;
+}
+
+  /* CARDS */
+
+.main-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 85%;
+    height: 40vh;
+    margin: 0 auto;
+}
+  
+.home-card {
+    width: 25%;
+    height: 25vh;
+    border-radius: 3px;
+}
+  
+.home-card h4, p {
+    color: var(--white-color);
+    margin: 1.5rem 0 1.5rem 1.5rem;
+}
+  
+.home-card small {
+    color: var(--shrimp-color);
+    margin: 3.5rem 0 1rem 1.5rem;
+}
