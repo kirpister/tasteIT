@@ -16,6 +16,12 @@ h3 {
     color: var(--white-color);
 }
 
+.home > .bg {
+    background: green;
+}
+.add .bg {
+    background: green;
+}
 video {
     width: 100vw;
     height: auto;

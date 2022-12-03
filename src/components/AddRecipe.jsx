@@ -1,8 +1,36 @@
-import React from 'react';
+import React, { useState } from 'react';
 import '../styles/addRecipe.css';
 
 const AddRecipe = () => {
+
+    const [addInput, setAddInput] = useState([{ id: 1, quantity: '', ingredient: '' }]);
+
+    const [addRecipe, setAddRecipe] = useState({
+        name: '',
+        author: '',
+        country: '',
+        flag: '',
+        description:'',
+        ingredients: [],
+        instructions: '',
+    })
+    
+
+    const addHandler = (e) => {
+        e.preventDefault();
+        setAddInput([...addInput,{ id: addInput.length + 1, quantity: '', ingredient: '' } 
+    ]);
+    }
+
+    const newIngredient = (e, index) => {
+        let ingredList = [...addInput];
+        ingredList[index][e.target.name] = e.target.value;
+        setAddRecipe({ ...addRecipe, addInput: ingredList })
+    }
+
     return (
+
+    
         <div className='wrapper'>
     
         <div className='form-cont'>
@@ -36,20 +64,40 @@ const AddRecipe = () => {
 
         <label htmlFor="">Ingredients</label>
 
-        <div className='row'>
+        {addInput.map((input, index) => (
+                 <div key={index} className='row'>
+                 <div className='input1'>
+                 <label htmlFor="">Quantity</label>
+                 <input type="text" name="quantity" id="quantity" onChange={(e) => newIngredient(e, index)} />
+                 </div>
+         
+                 <div className='input2'>
+                 <label htmlFor="">Ingredient</label>
+                 <input type="text" name="ingredient" id="ingredient" onChange={(e) => newIngredient(e, index)} />
+                 </div>
+                
+                 
+                 </div>
+                 ))}
+         
+                <button onClick={addHandler}>Add more</button>
+         
+
+        {/* <div className='row'>
         <div className='input1'>
         <label htmlFor="">Quantity</label>
-        <input type="text" />
+        <input type="text" name="quantity" id="quantity" />
         </div>
 
         <div className='input2'>
         <label htmlFor="">Ingredient</label>
-        <input type="text" />
+        <input type="text" name="ingredient" id="ingredient" />
         </div>
         </div>
 
         <button>Add more</button>
 
+        <div> */}
         <div>
         <label htmlFor="">Instructions</label>
         <textarea></textarea>
@@ -57,8 +105,9 @@ const AddRecipe = () => {
 
         </form>
         </div>
-
         </div>
+
+    
     );
 };
 

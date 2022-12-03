@@ -1,7 +1,7 @@
 /* ADD RECIPE */
 
 .wrapper {
-    height: 100vh;
+    min-height: 120vh;
     background-image: url(../assets/salmon.jpg);
     background-color: rgba(25, 24, 24, 0.6);
     background-attachment: fixed;
@@ -56,7 +56,7 @@ input,textarea,select:focus {
 }
 
 .form-cont {
-    margin: 7% 0 0 15%;
+    padding: 7% 0 0 15%;
 }
   
 .form-cont button {
