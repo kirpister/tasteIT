@@ -5,19 +5,19 @@ h4 {
 }
 
 .recipe-info h2 {
-    margin: 0 0 2rem 0;
+    margin: 0 0 2rem 1rem;
 }
 
 .food-img {
     width: 350px;
     height: auto;
+    border-radius: 0.5rem;
     margin: 1rem 0 0 1rem;
 }
 
 .recipe-cont {
     margin-top: 7%;
     display: flex;
-    /* flex-direction: column; */
     justify-content: center;
 }
 
@@ -25,7 +25,33 @@ h4 {
     width: 35vw;
 } 
 
+.recipe-info h4 {
+    margin: 1.5rem 0 1rem 1rem;
+}
+
 .recipe-box {
     margin-top: 7%;
     width: 50vw;
 } 
+
+.recipe-box img {
+    height: 100px;
+    width: auto;
+    border-radius: 0.5rem;
+    position: absolute;
+    right: 10%;
+    top: 35%;
+}
+
+table {
+    margin: 1.5rem 0 0 1rem;
+    border-collapse: collapse;
+    width: 25vw;
+    color: var(--white-color);
+    margin-bottom: 5rem;
+}
+
+td {
+    border: 1px solid var(--white-color);
+    padding: 0.7rem;
+}

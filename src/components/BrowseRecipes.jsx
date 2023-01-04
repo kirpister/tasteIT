@@ -32,6 +32,7 @@ const BrowseRecipes = () => {
             id={recipe.id}
             flag={recipe.flag}
             country={recipe.country}
+            ingredients={recipe.ingredients}
             
             />
             );

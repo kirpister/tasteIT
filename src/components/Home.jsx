@@ -14,14 +14,14 @@ const Home = () => {
             <div className='intro-container'>
                 <h1>tasteIT</h1>
                 <h3>Travel the world from your kitchen!</h3>
-                <button>Browse Recipes</button>
+                <Link to="/browserecipes"><button>Browse Recipes</button></Link>
             </div>
 
             <div className='main-container'>
 
                 <div className='home-card'>
                 <h4>Browse Recipes</h4>
-                <p>Need some inspiration? Browse here recipes from around the world.</p>
+                <p>Need some inspiration? Browse here for recipes from around the world.</p>
                 <Link to="/browserecipes"><small>All Recipes</small></Link>
                 </div>
 

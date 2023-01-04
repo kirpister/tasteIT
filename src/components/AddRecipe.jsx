@@ -67,17 +67,17 @@ const AddRecipe = () => {
 
         <div>
             <label htmlFor="name">Name</label>
-            <input type="text" name="name" id="name" onChange={(e) => changeHandler(e)}/>
+            <input type="text" name="name" id="name" value={addRecipe.name} onChange={(e) => changeHandler(e)}/>
         </div>
 
         <div>
             <label htmlFor="author">Author</label>
-            <input type="text" name="author" id="author"/>
+            <input type="text" name="author" id="author" value={addRecipe.author}/>
         </div>
 
         <div>
             <label htmlFor="country">Country of origin</label>
-            <select name="country" id="country" onChange={(e) => changeHandler(e)}>
+            <select name="country" id="country" value={addRecipe.country.value} onChange={(e) => changeHandler(e)}>
             <option value="" disabled>Choose a country</option>
             {countryData.map((a) => {
             return ( <option value={a} key={a}>{a}</option>);
@@ -86,26 +86,26 @@ const AddRecipe = () => {
 
         <div>
             <label htmlFor="description">Description</label>
-            <textarea name="description" id="description" onChange={(e) => changeHandler(e)}></textarea>
+            <textarea name="description" id="description" value={addRecipe.description} onChange={(e) => changeHandler(e)}></textarea>
         </div>
 
         <div>
             <label htmlFor="image">Image</label>
-            <input type="text" name="image" id="image" onChange={(e) => changeHandler(e)}/>
+            <input type="text" name="image" id="image" value={addRecipe.image} onChange={(e) => changeHandler(e)}/>
         </div>
 
         <label htmlFor="ingredients">Ingredients</label>
 
-        {addInput.map((input, index) => (
+        {addInput.map((ingredient, index) => (
             <div key={index} className='row'>
             <div className='input1'>
             <label htmlFor="">Quantity</label>
-            <input type="text" name="quantity" id="quantity" onChange={(e) => newIngredient(e, index)} />
+            <input type="text" name="quantity" id="quantity" value={ingredient.quantity} onChange={(e) => newIngredient(e, index)} />
             </div>
          
             <div className='input2'>
             <label htmlFor="">Ingredient</label>
-            <input type="text" name="ingredient" id="ingredient" onChange={(e) => newIngredient(e, index)} />
+            <input type="text" name="ingredient" id="ingredient" value={ingredient.name} onChange={(e) => newIngredient(e, index)} />
             </div>
                 
             </div>))}
@@ -114,7 +114,7 @@ const AddRecipe = () => {
          
         <div>
             <label htmlFor="">Instructions</label>
-            <textarea name="instructions" id="instructions" onChange={(e) => changeHandler(e)}></textarea>
+            <textarea name="instructions" id="instructions" value={addRecipe.instructions} onChange={(e) => changeHandler(e)}></textarea>
         </div>
 
          <button onClick={submitHandler}>Submit</button>   

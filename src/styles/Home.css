@@ -1,7 +1,7 @@
 /* HERO BANNER */
 
 body {
-    background-color: rgb(15, 17, 20);
+    background-color: var(--dark-background);
     font-family: var(--main-font);
 }
 
@@ -19,7 +19,7 @@ h3 {
 
 video {
     width: 100vw;
-    height: auto;
+    height: 80vh;
     /* z-index: -1; */
     object-fit: cover;
     position: relative;
@@ -29,8 +29,8 @@ video {
     width: 50vw;
     height: 35vh;
     position: absolute;
-    top: 15%;
-    left: 10%;
+    top: 13%;
+    left: 5%;
 }
 
   /* CARDS */

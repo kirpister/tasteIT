@@ -8,12 +8,36 @@
       "description": "A classic Italian dish of breaded chicken topped with tomato sauce and melted mozzarella cheese.",
       "image": "https://assets.bonappetit.com/photos/5ea8f0df16738800085ad5d2/1:1/w_2560%2Cc_limit/Chicken-Parmesean-Recipe-Lede.jpg",
       "ingredients": [
-        { "name": "chicken breasts", "quantity": 2, "unit": "pounds" },
-        { "name": "flour", "quantity": 0.5, "unit": "cup" },
-        { "name": "eggs", "quantity": 2, "unit": "whole" },
-        { "name": "bread crumbs", "quantity": 1, "unit": "cup" },
-        { "name": "tomato sauce", "quantity": 1, "unit": "cup" },
-        { "name": "mozzarella cheese", "quantity": 1, "unit": "cup" }
+        {
+          "name": "chicken breasts",
+          "quantity": 2,
+          "unit": "pounds"
+        },
+        {
+          "name": "flour",
+          "quantity": 0.5,
+          "unit": "cup"
+        },
+        {
+          "name": "eggs",
+          "quantity": 2,
+          "unit": "whole"
+        },
+        {
+          "name": "bread crumbs",
+          "quantity": 1,
+          "unit": "cup"
+        },
+        {
+          "name": "tomato sauce",
+          "quantity": 1,
+          "unit": "cup"
+        },
+        {
+          "name": "mozzarella cheese",
+          "quantity": 1,
+          "unit": "cup"
+        }
       ],
       "preparation_time": 15,
       "cooking_time": 20,
@@ -44,15 +68,51 @@
       "description": "A popular Thai street food dish made with stir-fried rice noodles, eggs, and a variety of vegetables and seasonings.",
       "image": "https://www.feastingathome.com/wp-content/uploads/2016/04/pad-thai-2.jpg",
       "ingredients": [
-        { "name": "rice noodles", "quantity": 8, "unit": "ounces" },
-        { "name": "eggs", "quantity": 2, "unit": "whole" },
-        { "name": "bean sprouts", "quantity": 1, "unit": "cup" },
-        { "name": "green onions", "quantity": 0.5, "unit": "cup" },
-        { "name": "ground peanuts", "quantity": 0.25, "unit": "cup" },
-        { "name": "lime", "quantity": 4, "unit": "wedges" },
-        { "name": "fish sauce", "quantity": 2, "unit": "tablespoon" },
-        { "name": "brown sugar", "quantity": 1, "unit": "tablespoon" },
-        { "name": "red pepper flakes", "quantity": 1, "unit": "teaspoon" }
+        {
+          "name": "rice noodles",
+          "quantity": 8,
+          "unit": "ounces"
+        },
+        {
+          "name": "eggs",
+          "quantity": 2,
+          "unit": "whole"
+        },
+        {
+          "name": "bean sprouts",
+          "quantity": 1,
+          "unit": "cup"
+        },
+        {
+          "name": "green onions",
+          "quantity": 0.5,
+          "unit": "cup"
+        },
+        {
+          "name": "ground peanuts",
+          "quantity": 0.25,
+          "unit": "cup"
+        },
+        {
+          "name": "lime",
+          "quantity": 4,
+          "unit": "wedges"
+        },
+        {
+          "name": "fish sauce",
+          "quantity": 2,
+          "unit": "tablespoon"
+        },
+        {
+          "name": "brown sugar",
+          "quantity": 1,
+          "unit": "tablespoon"
+        },
+        {
+          "name": "red pepper flakes",
+          "quantity": 1,
+          "unit": "teaspoon"
+        }
       ],
       "preparation_time": 20,
       "cooking_time": 30,
@@ -79,14 +139,46 @@
       "description": "A rich and creamy pasta dish with a homemade Alfredo sauce and tender chicken.",
       "image": "https://www.budgetbytes.com/wp-content/uploads/2022/07/Chicken-Alfredo-bowl.jpg",
       "ingredients": [
-        { "name": "chicken breast", "quantity": 2, "unit": "pounds" },
-        { "name": "fettuccine pasta", "quantity": 1, "unit": "pound" },
-        { "name": "butter", "quantity": 1, "unit": "cup" },
-        { "name": "heavy cream", "quantity": 1, "unit": "cup" },
-        { "name": "garlic", "quantity": 4, "unit": "cloves" },
-        { "name": "parmesan cheese", "quantity": 1, "unit": "cup" },
-        { "name": "salt", "quantity": 0.5, "unit": "teaspoon" },
-        { "name": "pepper", "quantity": 0.25, "unit": "teaspoon" }
+        {
+          "name": "chicken breast",
+          "quantity": 2,
+          "unit": "pounds"
+        },
+        {
+          "name": "fettuccine pasta",
+          "quantity": 1,
+          "unit": "pound"
+        },
+        {
+          "name": "butter",
+          "quantity": 1,
+          "unit": "cup"
+        },
+        {
+          "name": "heavy cream",
+          "quantity": 1,
+          "unit": "cup"
+        },
+        {
+          "name": "garlic",
+          "quantity": 4,
+          "unit": "cloves"
+        },
+        {
+          "name": "parmesan cheese",
+          "quantity": 1,
+          "unit": "cup"
+        },
+        {
+          "name": "salt",
+          "quantity": 0.5,
+          "unit": "teaspoon"
+        },
+        {
+          "name": "pepper",
+          "quantity": 0.25,
+          "unit": "teaspoon"
+        }
       ],
       "preparation_time": 15,
       "cooking_time": 20,
@@ -114,15 +206,51 @@
       "description": "A hearty and comforting dish of tender beef in a rich and creamy sauce, served over egg noodles.",
       "image": "https://www.gimmesomeoven.com/wp-content/uploads/2020/10/Beef-Stroganoff-Recipe-9.jpg",
       "ingredients": [
-        { "name": "beef tenderloin", "quantity": 1.5, "unit": "pounds" },
-        { "name": "egg noodles", "quantity": 1, "unit": "pound" },
-        { "name": "butter", "quantity": 0.5, "unit": "cup" },
-        { "name": "onion", "quantity": 1, "unit": "large" },
-        { "name": "mushrooms", "quantity": 8, "unit": "ounces" },
-        { "name": "beef broth", "quantity": 1, "unit": "cup" },
-        { "name": "sour cream", "quantity": 0.5, "unit": "cup" },
-        { "name": "salt", "quantity": 0.5, "unit": "teaspoon" },
-        { "name": "pepper", "quantity": 0.25, "unit": "teaspoon" }
+        {
+          "name": "beef tenderloin",
+          "quantity": 1.5,
+          "unit": "pounds"
+        },
+        {
+          "name": "egg noodles",
+          "quantity": 1,
+          "unit": "pound"
+        },
+        {
+          "name": "butter",
+          "quantity": 0.5,
+          "unit": "cup"
+        },
+        {
+          "name": "onion",
+          "quantity": 1,
+          "unit": "large"
+        },
+        {
+          "name": "mushrooms",
+          "quantity": 8,
+          "unit": "ounces"
+        },
+        {
+          "name": "beef broth",
+          "quantity": 1,
+          "unit": "cup"
+        },
+        {
+          "name": "sour cream",
+          "quantity": 0.5,
+          "unit": "cup"
+        },
+        {
+          "name": "salt",
+          "quantity": 0.5,
+          "unit": "teaspoon"
+        },
+        {
+          "name": "pepper",
+          "quantity": 0.25,
+          "unit": "teaspoon"
+        }
       ],
       "preparation_time": 15,
       "cooking_time": 30,
@@ -150,17 +278,61 @@
       "description": "A healthy and delicious dish of stir-fried vegetables in a savory sauce, served over rice.",
       "image": "https://peasandcrayons.com/wp-content/uploads/2020/12/vegetable-stir-fry-noodles-recipe-.jpg",
       "ingredients": [
-        { "name": "rice", "quantity": 1, "unit": "cup" },
-        { "name": "broccoli", "quantity": 1, "unit": "head" },
-        { "name": "carrots", "quantity": 2, "unit": "large" },
-        { "name": "bell pepper", "quantity": 1, "unit": "large" },
-        { "name": "onion", "quantity": 1, "unit": "medium" },
-        { "name": "vegetable oil", "quantity": 2, "unit": "tablespoons" },
-        { "name": "soy sauce", "quantity": 3, "unit": "tablespoons" },
-        { "name": "ginger", "quantity": 1, "unit": "teaspoon" },
-        { "name": "garlic", "quantity": 2, "unit": "cloves" },
-        { "name": "salt", "quantity": 0.25, "unit": "teaspoon" },
-        { "name": "pepper", "quantity": 0.25, "unit": "teaspoon" }
+        {
+          "name": "rice",
+          "quantity": 1,
+          "unit": "cup"
+        },
+        {
+          "name": "broccoli",
+          "quantity": 1,
+          "unit": "head"
+        },
+        {
+          "name": "carrots",
+          "quantity": 2,
+          "unit": "large"
+        },
+        {
+          "name": "bell pepper",
+          "quantity": 1,
+          "unit": "large"
+        },
+        {
+          "name": "onion",
+          "quantity": 1,
+          "unit": "medium"
+        },
+        {
+          "name": "vegetable oil",
+          "quantity": 2,
+          "unit": "tablespoons"
+        },
+        {
+          "name": "soy sauce",
+          "quantity": 3,
+          "unit": "tablespoons"
+        },
+        {
+          "name": "ginger",
+          "quantity": 1,
+          "unit": "teaspoon"
+        },
+        {
+          "name": "garlic",
+          "quantity": 2,
+          "unit": "cloves"
+        },
+        {
+          "name": "salt",
+          "quantity": 0.25,
+          "unit": "teaspoon"
+        },
+        {
+          "name": "pepper",
+          "quantity": 0.25,
+          "unit": "teaspoon"
+        }
       ],
       "preparation_time": 10,
       "cooking_time": 15,
@@ -187,13 +359,41 @@
       "description": "These Finnish pancakes are thin and deliciously crispy. Perfect for enjoying with a variety of toppings, such as jam, sugar, or fresh berries.",
       "image": "https://assets.bonappetit.com/photos/608acf9320c3cccdd978fac7/1:1/w_1687,h_1687,c_limit/Basically-FinnishPancakes.jpg",
       "ingredients": [
-        { "name": "all-purpose flour", "quantity": 1, "unit": "cup" },
-        { "name": "milk", "quantity": 1, "unit": "cup" },
-        { "name": "egg", "quantity": 1, "unit": "whole" },
-        { "name": "sugar", "quantity": 1, "unit": "tablespoon" },
-        { "name": "baking powder", "quantity": 1, "unit": "teaspoon" },
-        { "name": "salt", "quantity": 0.25, "unit": "teaspoon" },
-        { "name": "butter", "quantity": 2, "unit": "tablespoons" }
+        {
+          "name": "all-purpose flour",
+          "quantity": 1,
+          "unit": "cup"
+        },
+        {
+          "name": "milk",
+          "quantity": 1,
+          "unit": "cup"
+        },
+        {
+          "name": "egg",
+          "quantity": 1,
+          "unit": "whole"
+        },
+        {
+          "name": "sugar",
+          "quantity": 1,
+          "unit": "tablespoon"
+        },
+        {
+          "name": "baking powder",
+          "quantity": 1,
+          "unit": "teaspoon"
+        },
+        {
+          "name": "salt",
+          "quantity": 0.25,
+          "unit": "teaspoon"
+        },
+        {
+          "name": "butter",
+          "quantity": 2,
+          "unit": "tablespoons"
+        }
       ],
       "preparation_time": 10,
       "cooking_time": 15,
@@ -222,14 +422,46 @@
       "description": "This German potato salad is a tangy and delicious side dish. It's perfect for serving at a summer BBQ or alongside a hearty meal.",
       "image": "https://www.cookingclassy.com/wp-content/uploads/2020/06/german-potato-salad-2.jpg",
       "ingredients": [
-        { "name": "potatoes", "quantity": 6, "unit": "medium" },
-        { "name": "bacon", "quantity": 6, "unit": "slices" },
-        { "name": "onion", "quantity": 1, "unit": "large" },
-        { "name": "white vinegar", "quantity": 0.25, "unit": "cup" },
-        { "name": "water", "quantity": 0.25, "unit": "cup" },
-        { "name": "sugar", "quantity": 0.25, "unit": "cup" },
-        { "name": "salt", "quantity": 0.5, "unit": "teaspoon" },
-        { "name": "pepper", "quantity": 0.5, "unit": "teaspoon" }
+        {
+          "name": "potatoes",
+          "quantity": 6,
+          "unit": "medium"
+        },
+        {
+          "name": "bacon",
+          "quantity": 6,
+          "unit": "slices"
+        },
+        {
+          "name": "onion",
+          "quantity": 1,
+          "unit": "large"
+        },
+        {
+          "name": "white vinegar",
+          "quantity": 0.25,
+          "unit": "cup"
+        },
+        {
+          "name": "water",
+          "quantity": 0.25,
+          "unit": "cup"
+        },
+        {
+          "name": "sugar",
+          "quantity": 0.25,
+          "unit": "cup"
+        },
+        {
+          "name": "salt",
+          "quantity": 0.5,
+          "unit": "teaspoon"
+        },
+        {
+          "name": "pepper",
+          "quantity": 0.5,
+          "unit": "teaspoon"
+        }
       ],
       "preparation_time": 20,
       "cooking_time": 25,
@@ -257,11 +489,31 @@
       "description": "A traditional Swiss dish made with melted cheese and white wine, served with bread for dipping.",
       "image": "https://www.earthfoodandfire.com/wp-content/uploads/2016/11/authentic-swiss-cheese-fondue.jpg",
       "ingredients": [
-        { "name": "Gruyere cheese", "quantity": 1.5, "unit": "pound" },
-        { "name": "Emmental cheese", "quantity": 1.5, "unit": "pounds" },
-        { "name": "White wine", "quantity": 2, "unit": "cups" },
-        { "name": "Garlic", "quantity": 3, "unit": "cloves" },
-        { "name": "Kirsch", "quantity": 1, "unit": "tablespoon" }
+        {
+          "name": "Gruyere cheese",
+          "quantity": 1.5,
+          "unit": "pound"
+        },
+        {
+          "name": "Emmental cheese",
+          "quantity": 1.5,
+          "unit": "pounds"
+        },
+        {
+          "name": "White wine",
+          "quantity": 2,
+          "unit": "cups"
+        },
+        {
+          "name": "Garlic",
+          "quantity": 3,
+          "unit": "cloves"
+        },
+        {
+          "name": "Kirsch",
+          "quantity": 1,
+          "unit": "tablespoon"
+        }
       ],
       "preparation_time": 15,
       "cooking_time": 30,
@@ -289,12 +541,36 @@
       "description": "A delicious burger made with ground beef, cheese, lettuce, tomato, and onion, served on a toasted bun.",
       "image": "https://www.sbs.com.au/food/sites/sbs.com.au.food/files/f6e4af93-11ef-4279-8ae7-64acd51f6a36.jpeg",
       "ingredients": [
-        { "name": "Ground beef", "quantity": 1.5, "unit": "pounds" },
-        { "name": "American cheese", "quantity": 4, "unit": "slices" },
-        { "name": "Lettuce", "quantity": 1, "unit": "head" },
-        { "name": "Tomato", "quantity": 1, "unit": "medium" },
-        { "name": "Onion", "quantity": 0.5, "unit": "large" },
-        { "name": "Hamburger buns", "quantity": 4, "unit": "large" }
+        {
+          "name": "Ground beef",
+          "quantity": 1.5,
+          "unit": "pounds"
+        },
+        {
+          "name": "American cheese",
+          "quantity": 4,
+          "unit": "slices"
+        },
+        {
+          "name": "Lettuce",
+          "quantity": 1,
+          "unit": "head"
+        },
+        {
+          "name": "Tomato",
+          "quantity": 1,
+          "unit": "medium"
+        },
+        {
+          "name": "Onion",
+          "quantity": 0.5,
+          "unit": "large"
+        },
+        {
+          "name": "Hamburger buns",
+          "quantity": 4,
+          "unit": "large"
+        }
       ],
       "preparation_time": 15,
       "cooking_time": 20,
@@ -323,13 +599,41 @@
       "description": "Fluffy and delicious pancakes, a classic American breakfast favorite.",
       "image": "https://glutenfreecuppatea.co.uk/wp-content/uploads/2021/02/gluten-free-american-pancakes-recipe.jpg",
       "ingredients": [
-        { "name": "all-purpose flour", "quantity": 1.5, "unit": "cups" },
-        { "name": "baking powder", "quantity": 2, "unit": "teaspoons" },
-        { "name": "sugar", "quantity": 0.5, "unit": "cups" },
-        { "name": "salt", "quantity": 0.25, "unit": "teaspoons" },
-        { "name": "milk", "quantity": 1.5, "unit": "cups" },
-        { "name": "vegetable oil", "quantity": 3, "unit": "tablespoons" },
-        { "name": "eggs", "quantity": 2, "unit": "whole" }
+        {
+          "name": "all-purpose flour",
+          "quantity": 1.5,
+          "unit": "cups"
+        },
+        {
+          "name": "baking powder",
+          "quantity": 2,
+          "unit": "teaspoons"
+        },
+        {
+          "name": "sugar",
+          "quantity": 0.5,
+          "unit": "cups"
+        },
+        {
+          "name": "salt",
+          "quantity": 0.25,
+          "unit": "teaspoons"
+        },
+        {
+          "name": "milk",
+          "quantity": 1.5,
+          "unit": "cups"
+        },
+        {
+          "name": "vegetable oil",
+          "quantity": 3,
+          "unit": "tablespoons"
+        },
+        {
+          "name": "eggs",
+          "quantity": 2,
+          "unit": "whole"
+        }
       ],
       "preparation_time": "10 minutes",
       "cooking_time": "15 minutes",
@@ -349,8 +653,6 @@
         "carbohydrates": 48,
         "protein": 10
       }
-    
-
-    }
-  ]
-}
+      
+    } ]
+  }

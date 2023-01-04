@@ -21,7 +21,9 @@ const Card = ({ name, image, country, id }) => {
         <div className='recipe-card'>
 
           <div className='flag-cont'>
+            
            <img className='flag-img' src={flag} alt="flag" />
+           
           </div>
 
           <img className='recipe-img' src={image}></img>

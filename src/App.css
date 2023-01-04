@@ -13,12 +13,16 @@
   --main-font:'Ubuntu', sans-serif;
   --shrimp-color: rgb(243, 156, 154);
   --white-color: rgba(255, 255, 255, 0.7);
+  --dark-background: rgb(15, 17, 20);
   --logo-font: 'Coda', cursive;
 }
 
-/* body {
-  background-color: rgb(15, 17, 20);
-} */
+[data-theme='light'] {
+  --dark-background: rgb(213, 213, 213);
+  --white-color: rgb(48, 48, 48);
+  --shrimp-color: rgb(243, 156, 154);
+}
+
 
 a {
   text-decoration: none;
@@ -54,7 +58,7 @@ header, footer {
 }
 
 footer {
-  height: 40px;
+  height: 50px;
   text-align: center;
   color: var(--white-color);
   padding: 10px;
