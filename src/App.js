@@ -17,7 +17,7 @@ const App = () => {
           <Route path='/' element={<Layout />}>
             <Route index element={<Home />} />
             <Route path='browserecipes' element={<BrowseRecipes />} />
-            <Route  path='browserecipies/:recipe' element={<Recipe />}  />
+            <Route path='browserecipes/:singlerecipe' element={<Recipe />}  />
             <Route path='add' element={<AddRecipe />} />
           </Route>
         </Routes>

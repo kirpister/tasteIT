@@ -1,0 +1,356 @@
+{
+  "recipes": [
+    {
+      "id": 1,
+      "name": "Chicken Parmesan",
+      "author": "Maria Valentina",
+      "country": "Italy",
+      "description": "A classic Italian dish of breaded chicken topped with tomato sauce and melted mozzarella cheese.",
+      "image": "https://assets.bonappetit.com/photos/5ea8f0df16738800085ad5d2/1:1/w_2560%2Cc_limit/Chicken-Parmesean-Recipe-Lede.jpg",
+      "ingredients": [
+        { "name": "chicken breasts", "quantity": 2, "unit": "pounds" },
+        { "name": "flour", "quantity": 0.5, "unit": "cup" },
+        { "name": "eggs", "quantity": 2, "unit": "whole" },
+        { "name": "bread crumbs", "quantity": 1, "unit": "cup" },
+        { "name": "tomato sauce", "quantity": 1, "unit": "cup" },
+        { "name": "mozzarella cheese", "quantity": 1, "unit": "cup" }
+      ],
+      "preparation_time": 15,
+      "cooking_time": 20,
+      "servings": 4,
+      "directions": [
+        "Preheat the oven to 400 degrees F.",
+        "Cut the chicken breasts in half lengthwise to create thin cutlets.",
+        "In a shallow dish, combine the flour and some salt and pepper.",
+        "In a separate shallow dish, beat the eggs.",
+        "In a third shallow dish, mix the bread crumbs with some grated Parmesan cheese.",
+        "Dredge each chicken cutlet in the flour mixture, then dip it in the egg mixture, and then coat it with the bread crumb mixture, pressing gently to help the bread crumbs adhere.",
+        "Heat some oil in a large oven-safe skillet over medium-high heat. Add the chicken cutlets and cook until they are golden brown on both sides, about 2 minutes per side.",
+        "Pour the tomato sauce over the chicken and sprinkle with the mozzarella cheese. Transfer the skillet to the oven and bake until the cheese is melted and bubbly, about 10 minutes.",
+        "Serve the chicken Parmesan with a side of pasta or a salad."
+      ],
+      "nutrition": {
+        "calories": 600,
+        "fat": 30,
+        "carbohydrates": 40,
+        "protein": 40
+      }
+    },
+    {
+      "id": 2,
+      "name": "Pad Thai",
+      "author": "Malee Saelim",
+      "country": "Thailand",
+      "description": "A popular Thai street food dish made with stir-fried rice noodles, eggs, and a variety of vegetables and seasonings.",
+      "image": "https://www.feastingathome.com/wp-content/uploads/2016/04/pad-thai-2.jpg",
+      "ingredients": [
+        { "name": "rice noodles", "quantity": 8, "unit": "ounces" },
+        { "name": "eggs", "quantity": 2, "unit": "whole" },
+        { "name": "bean sprouts", "quantity": 1, "unit": "cup" },
+        { "name": "green onions", "quantity": 0.5, "unit": "cup" },
+        { "name": "ground peanuts", "quantity": 0.25, "unit": "cup" },
+        { "name": "lime", "quantity": 4, "unit": "wedges" },
+        { "name": "fish sauce", "quantity": 2, "unit": "tablespoon" },
+        { "name": "brown sugar", "quantity": 1, "unit": "tablespoon" },
+        { "name": "red pepper flakes", "quantity": 1, "unit": "teaspoon" }
+      ],
+      "preparation_time": 20,
+      "cooking_time": 30,
+      "servings": 2,
+      "directions": [
+        "Soak the rice noodles in warm water for 30 minutes, then drain and set aside.",
+        "In a large wok or skillet, heat some oil over medium-high heat. Add the eggs and scramble until cooked, then transfer to a plate and set aside.",
+        "Add more oil to the wok or skillet and heat until hot. Add the drained rice noodles, bean sprouts, green onions, ground peanuts, and lime wedges. Stir-fry until the noodles are softened and heated through, about 5 minutes.",
+        "Add the scrambled eggs, fish sauce, brown sugar, and red pepper flakes. Stir-fry until the ingredients are well combined and the noodles are coated with the sauce, about 2 minutes.",
+        "Serve the pad Thai hot, garnished with additional ground peanuts and lime wedges, if desired."
+      ],
+      "nutrition": {
+        "calories": 800,
+        "fat": 30,
+        "carbohydrates": 100,
+        "protein": 30
+      }
+    },
+    {
+      "id": 3,
+      "name": "Chicken Alfredo",
+      "author": "Flavio Giovanni",
+      "country": "Italy",
+      "description": "A rich and creamy pasta dish with a homemade Alfredo sauce and tender chicken.",
+      "image": "https://www.budgetbytes.com/wp-content/uploads/2022/07/Chicken-Alfredo-bowl.jpg",
+      "ingredients": [
+        { "name": "chicken breast", "quantity": 2, "unit": "pounds" },
+        { "name": "fettuccine pasta", "quantity": 1, "unit": "pound" },
+        { "name": "butter", "quantity": 1, "unit": "cup" },
+        { "name": "heavy cream", "quantity": 1, "unit": "cup" },
+        { "name": "garlic", "quantity": 4, "unit": "cloves" },
+        { "name": "parmesan cheese", "quantity": 1, "unit": "cup" },
+        { "name": "salt", "quantity": 0.5, "unit": "teaspoon" },
+        { "name": "pepper", "quantity": 0.25, "unit": "teaspoon" }
+      ],
+      "preparation_time": 15,
+      "cooking_time": 20,
+      "servings": 4,
+      "directions": [
+        "Cook pasta according to package instructions.",
+        "Meanwhile, heat butter in a large saucepan over medium heat. Add garlic and cook until fragrant, about 1 minute.",
+        "Add heavy cream and parmesan cheese to the saucepan and stir until the cheese is melted and the sauce is smooth.",
+        "Season the sauce with salt and pepper to taste.",
+        "Add cooked and drained pasta to the saucepan and toss to coat with the Alfredo sauce.",
+        "Serve immediately, garnished with additional parmesan cheese if desired."
+      ],
+      "nutrition": {
+        "calories": 900,
+        "fat": 60,
+        "carbohydrates": 60,
+        "protein": 30
+      }
+    },
+    {
+      "id": 4,
+      "name": "Beef Stroganoff",
+      "author": "Alexsei Sidorov",
+      "country": "Russia",
+      "description": "A hearty and comforting dish of tender beef in a rich and creamy sauce, served over egg noodles.",
+      "image": "https://www.gimmesomeoven.com/wp-content/uploads/2020/10/Beef-Stroganoff-Recipe-9.jpg",
+      "ingredients": [
+        { "name": "beef tenderloin", "quantity": 1.5, "unit": "pounds" },
+        { "name": "egg noodles", "quantity": 1, "unit": "pound" },
+        { "name": "butter", "quantity": 0.5, "unit": "cup" },
+        { "name": "onion", "quantity": 1, "unit": "large" },
+        { "name": "mushrooms", "quantity": 8, "unit": "ounces" },
+        { "name": "beef broth", "quantity": 1, "unit": "cup" },
+        { "name": "sour cream", "quantity": 0.5, "unit": "cup" },
+        { "name": "salt", "quantity": 0.5, "unit": "teaspoon" },
+        { "name": "pepper", "quantity": 0.25, "unit": "teaspoon" }
+      ],
+      "preparation_time": 15,
+      "cooking_time": 30,
+      "servings": 4,
+      "directions": [
+        "Cook noodles according to package instructions.",
+        "Meanwhile, heat butter in a large saucepan over medium heat. Add onion and mushrooms and cook until softened, about 5 minutes.",
+        "Cut beef into thin strips and add to the saucepan. Cook until the beef is browned on all sides, about 5-7 minutes.",
+        "Pour beef broth into the saucepan and bring to a simmer. Reduce heat to low and stir in sour cream.",
+        "Season the sauce with salt and pepper to taste.",
+        "Serve the beef stroganoff over cooked egg noodles, garnished with additional sour cream and chopped fresh parsley if desired."
+      ],
+      "nutrition": {
+        "calories": 700,
+        "fat": 40,
+        "carbohydrates": 40,
+        "protein": 30
+      }
+    },
+    {
+      "id": 5,
+      "name": "Vegetable Stir-Fry",
+      "author": "Mao Dong",
+      "country": "China",
+      "description": "A healthy and delicious dish of stir-fried vegetables in a savory sauce, served over rice.",
+      "image": "https://peasandcrayons.com/wp-content/uploads/2020/12/vegetable-stir-fry-noodles-recipe-.jpg",
+      "ingredients": [
+        { "name": "rice", "quantity": 1, "unit": "cup" },
+        { "name": "broccoli", "quantity": 1, "unit": "head" },
+        { "name": "carrots", "quantity": 2, "unit": "large" },
+        { "name": "bell pepper", "quantity": 1, "unit": "large" },
+        { "name": "onion", "quantity": 1, "unit": "medium" },
+        { "name": "vegetable oil", "quantity": 2, "unit": "tablespoons" },
+        { "name": "soy sauce", "quantity": 3, "unit": "tablespoons" },
+        { "name": "ginger", "quantity": 1, "unit": "teaspoon" },
+        { "name": "garlic", "quantity": 2, "unit": "cloves" },
+        { "name": "salt", "quantity": 0.25, "unit": "teaspoon" },
+        { "name": "pepper", "quantity": 0.25, "unit": "teaspoon" }
+      ],
+      "preparation_time": 10,
+      "cooking_time": 15,
+      "servings": 4,
+      "directions": [
+        "Cook rice according to package instructions.",
+        "Meanwhile, cut broccoli, carrots, bell pepper, and onion into bite-sized pieces.",
+        "Heat oil in a large wok or skillet over high heat. Add vegetables and stir-fry until they are tender but still crisp, about 5-7 minutes.",
+        "Stir in soy sauce, ginger, garlic, salt, and pepper, and cook for an additional minute.",
+        "Serve the vegetable stir-fry over cooked rice, garnished with chopped fresh cilantro if desired."
+      ],
+      "nutrition": {
+        "calories": 400,
+        "fat": 15,
+        "carbohydrates": 50,
+        "protein": 30
+      }
+    },
+    {
+      "id": 6,
+      "name": "Finnish Pancakes",
+      "author": "Matti Meikäläinen",
+      "country": "Finland",
+      "description": "These Finnish pancakes are thin and deliciously crispy. Perfect for enjoying with a variety of toppings, such as jam, sugar, or fresh berries.",
+      "image": "https://assets.bonappetit.com/photos/608acf9320c3cccdd978fac7/1:1/w_1687,h_1687,c_limit/Basically-FinnishPancakes.jpg",
+      "ingredients": [
+        { "name": "all-purpose flour", "quantity": 1, "unit": "cup" },
+        { "name": "milk", "quantity": 1, "unit": "cup" },
+        { "name": "egg", "quantity": 1, "unit": "whole" },
+        { "name": "sugar", "quantity": 1, "unit": "tablespoon" },
+        { "name": "baking powder", "quantity": 1, "unit": "teaspoon" },
+        { "name": "salt", "quantity": 0.25, "unit": "teaspoon" },
+        { "name": "butter", "quantity": 2, "unit": "tablespoons" }
+      ],
+      "preparation_time": 10,
+      "cooking_time": 15,
+      "servings": 4,
+      "directions": [
+        "In a medium bowl, whisk together the flour, milk, egg, sugar, baking powder, and salt until smooth.",
+        "Stir in the melted butter.",
+        "Heat a large non-stick skillet over medium heat. Lightly brush with oil or butter.",
+        "Pour 1/4 cup of batter into the skillet and swirl to spread evenly. Cook until the edges are lightly browned and bubbles form on the surface.",
+        "Flip and cook for an additional minute, or until the other side is lightly browned.",
+        "Repeat with the remaining batter, adding more oil or butter as needed.",
+        "Serve the pancakes hot, topped with your favorite toppings."
+      ],
+      "nutrition": {
+        "calories": 259,
+        "fat": 11.6,
+        "carbohydrates": 32.4,
+        "protein": 6.6
+      }
+    },
+    {
+      "id": 7,
+      "name": "German Potato Salad",
+      "author": "Peter Niedersachsen",
+      "country": "Germany",
+      "description": "This German potato salad is a tangy and delicious side dish. It's perfect for serving at a summer BBQ or alongside a hearty meal.",
+      "image": "https://www.cookingclassy.com/wp-content/uploads/2020/06/german-potato-salad-2.jpg",
+      "ingredients": [
+        { "name": "potatoes", "quantity": 6, "unit": "medium" },
+        { "name": "bacon", "quantity": 6, "unit": "slices" },
+        { "name": "onion", "quantity": 1, "unit": "large" },
+        { "name": "white vinegar", "quantity": 0.25, "unit": "cup" },
+        { "name": "water", "quantity": 0.25, "unit": "cup" },
+        { "name": "sugar", "quantity": 0.25, "unit": "cup" },
+        { "name": "salt", "quantity": 0.5, "unit": "teaspoon" },
+        { "name": "pepper", "quantity": 0.5, "unit": "teaspoon" }
+      ],
+      "preparation_time": 20,
+      "cooking_time": 25,
+      "servings": 6,
+      "directions": [
+        "Place the potatoes in a large saucepan and cover with water. Bring to a boil over high heat and cook for 15-20 minutes, or until the potatoes are tender.",
+        "Meanwhile, cook the bacon in a large skillet over medium heat until crisp. Remove the bacon from the skillet and set aside. Reserve the bacon grease in the skillet.",
+        "Peel and thinly slice the onion. Add the onion to the skillet with the reserved bacon grease and cook over medium heat until softened.",
+        "In a small saucepan, whisk together the vinegar, water, sugar, salt, and pepper. Bring to a boil over medium-high heat and cook for 1 minute, or until the sugar has dissolved.",
+        "When the potatoes are tender, drain and cut into 1/4-inch slices. Place the potatoes in a large bowl and add the cooked onions and vinegar mixture. Stir gently to combine.",
+        "Crumble the cooked bacon and sprinkle over the top of the potato salad. Serve immediately, or refrigerate until ready to serve."
+      ],
+      "nutrition": {
+        "calories": 259,
+        "fat": 11.6,
+        "carbohydrates": 32.4,
+        "protein": 6.6
+      }
+    },
+    {
+      "id": 8,
+      "name": "Swiss Cheese Fondue",
+      "author": "Karl Franz",
+      "country": "Switzerland",
+      "description": "A traditional Swiss dish made with melted cheese and white wine, served with bread for dipping.",
+      "image": "https://www.earthfoodandfire.com/wp-content/uploads/2016/11/authentic-swiss-cheese-fondue.jpg",
+      "ingredients": [
+        { "name": "Gruyere cheese", "quantity": 1.5, "unit": "pound" },
+        { "name": "Emmental cheese", "quantity": 1.5, "unit": "pounds" },
+        { "name": "White wine", "quantity": 2, "unit": "cups" },
+        { "name": "Garlic", "quantity": 3, "unit": "cloves" },
+        { "name": "Kirsch", "quantity": 1, "unit": "tablespoon" }
+      ],
+      "preparation_time": 15,
+      "cooking_time": 30,
+      "servings": 6,
+      "directions": [
+        "Rub the inside of a large fondue pot with the garlic cloves.",
+        "Pour the white wine into the pot and heat over medium heat until hot, but not boiling.",
+        "Grate the Gruyere and Emmental cheeses and add to the pot, a handful at a time, stirring until melted and well combined.",
+        "Stir in the Kirsch and season with salt and pepper to taste.",
+        "Transfer the pot to the stove or a portable burner to keep warm while serving.",
+        "Serve with cubes of bread for dipping."
+      ],
+      "nutrition": {
+        "calories": 500,
+        "fat": 30,
+        "carbohydrates": 25,
+        "protein": 30
+      }
+    },
+    {
+      "id": 9,
+      "name": "Classic American Cheeseburger",
+      "author": "John Doe",
+      "country": "United States",
+      "description": "A delicious burger made with ground beef, cheese, lettuce, tomato, and onion, served on a toasted bun.",
+      "image": "https://www.sbs.com.au/food/sites/sbs.com.au.food/files/f6e4af93-11ef-4279-8ae7-64acd51f6a36.jpeg",
+      "ingredients": [
+        { "name": "Ground beef", "quantity": 1.5, "unit": "pounds" },
+        { "name": "American cheese", "quantity": 4, "unit": "slices" },
+        { "name": "Lettuce", "quantity": 1, "unit": "head" },
+        { "name": "Tomato", "quantity": 1, "unit": "medium" },
+        { "name": "Onion", "quantity": 0.5, "unit": "large" },
+        { "name": "Hamburger buns", "quantity": 4, "unit": "large" }
+      ],
+      "preparation_time": 15,
+      "cooking_time": 20,
+      "servings": 4,
+      "directions": [
+        "Preheat the grill to medium-high heat.",
+        "Divide the ground beef into four equal portions and shape into patties.",
+        "Grill the burgers for about 5 minutes per side, or until cooked to your desired level of doneness.",
+        "During the last minute of grilling, top each burger with a slice of cheese to melt.",
+        "While the burgers are grilling, slice the tomato, onion, and lettuce.",
+        "Toast the hamburger buns on the grill until lightly golden.",
+        "Assemble the burgers by placing a burger patty on the bottom bun, followed by lettuce, tomato, onion, and the top bun."
+      ],
+      "nutrition": {
+        "calories": 800,
+        "fat": 50,
+        "carbohydrates": 40,
+        "protein": 40
+      }
+    },
+    {
+      "id": 10,
+      "name": "American Pancakes",
+      "author": "John Doe",
+      "country": "United States",
+      "description": "Fluffy and delicious pancakes, a classic American breakfast favorite.",
+      "image": "https://glutenfreecuppatea.co.uk/wp-content/uploads/2021/02/gluten-free-american-pancakes-recipe.jpg",
+      "ingredients": [
+        { "name": "all-purpose flour", "quantity": 1.5, "unit": "cups" },
+        { "name": "baking powder", "quantity": 2, "unit": "teaspoons" },
+        { "name": "sugar", "quantity": 0.5, "unit": "cups" },
+        { "name": "salt", "quantity": 0.25, "unit": "teaspoons" },
+        { "name": "milk", "quantity": 1.5, "unit": "cups" },
+        { "name": "vegetable oil", "quantity": 3, "unit": "tablespoons" },
+        { "name": "eggs", "quantity": 2, "unit": "whole" }
+      ],
+      "preparation_time": "10 minutes",
+      "cooking_time": "15 minutes",
+      "servings": 4,
+      "directions": [
+        "In a large bowl, whisk together the flour, baking powder, sugar, and salt.",
+        "In a separate bowl, whisk together the milk, vegetable oil, and eggs.",
+        "Pour the wet ingredients into the dry ingredients and whisk until well combined.",
+        "Heat a large skillet over medium heat and lightly grease with cooking spray or butter.",
+        "Pour 1/4 cup of batter onto the skillet for each pancake. Cook until bubbles form on the surface, about 2 minutes.",
+        "Flip the pancakes and cook until golden brown on the other side, about 2 minutes more.",
+        "Serve the pancakes hot, with your choice of toppings, such as butter and maple syrup."
+      ],
+      "nutrition": {
+        "calories": 400,
+        "fat": 18,
+        "carbohydrates": 48,
+        "protein": 10
+      }
+    
+
+    }
+  ]
+}

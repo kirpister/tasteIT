@@ -1,17 +1,35 @@
 import React from 'react';
+import { useState, useEffect } from "react";
+import axios from "axios";
 import '../styles/Card.css';
-import sampleimg from '../assets/sushi.jpg'
+import { Link } from "react-router-dom";
 
-const Card = () => {
+
+const Card = ({ name, image, country, id }) => {
+
+  const [flag, setFlag] = useState(null);
+
+  useEffect(() => {
+
+    axios.get("https://restcountries.com/v3.1/name/" + country).then((res) =>
+      setFlag(res.data[0].flags.svg)
+    );
+  }, []);
+
     return (
 
-        
-
         <div className='recipe-card'>
-          <img className='recipe-img' src={sampleimg}></img>
-          <h4>Food!</h4>
-          <button>See more</button>
 
+          <div className='flag-cont'>
+           <img className='flag-img' src={flag} alt="flag" />
+          </div>
+
+          <img className='recipe-img' src={image}></img>
+
+          <div className='info-cont'>
+          <h4>{name}</h4>
+          <button><Link to={`${id}`}>See more</Link></button>
+          </div>
         </div>
     );
 };

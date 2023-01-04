@@ -22,19 +22,19 @@ const Home = () => {
                 <div className='home-card'>
                 <h4>Browse Recipes</h4>
                 <p>Need some inspiration? Browse here recipes from around the world.</p>
-                <Link><small>All Recipes</small></Link>
+                <Link to="/browserecipes"><small>All Recipes</small></Link>
                 </div>
 
                 <div className='home-card'>
                 <h4>Add Recipes</h4>
                 <p>Wanna add your local favorite into our collection?</p>
-                <Link><small>Add Recipes</small></Link>
+                <Link to="/add"><small>Add Recipes</small></Link>
                 </div>
                 
                 <div className='home-card'>
                 <h4>More about our projects</h4>
-                <p>If you're interested in knowing more about our program visit BCH homepage</p>
-                <Link><small>Business College Helsinki</small></Link>    
+                <p>If you're interested in knowing more about our program visit BCH homepage.</p>
+                <a href="http://bc.fi"><small>Business College Helsinki</small></a>    
                 </div>
 
                 </div>

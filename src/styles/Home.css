@@ -14,14 +14,9 @@ h3 {
     font-size: 1.8rem;
     letter-spacing: 2px;
     color: var(--white-color);
+    margin-bottom: 5rem;
 }
 
-.home > .bg {
-    background: green;
-}
-.add .bg {
-    background: green;
-}
 video {
     width: 100vw;
     height: auto;
