@@ -17,12 +17,23 @@ App is currently not deployed but you can test it out by cloning the repo and ru
 
 Landing Page
 
-<img width="700" alt="taste-it2" src="https://user-images.githubusercontent.com/77112303/211062252-530b236a-867e-4125-8ece-03b11c9a1ff4.png">
+<img width="700" alt="taste-it1" src="https://user-images.githubusercontent.com/77112303/211072947-33de1e64-923a-41de-a168-f61a2519b14c.png">
 
-Browse Recipes
+Browse Recipes, also example of light theme
 
-<img width="700" alt="taste-it1" src="https://user-images.githubusercontent.com/77112303/211062289-d21326b5-4128-45a7-a60b-e2f95909793e.png">
+<img width="700" alt="taste-it2" src="https://user-images.githubusercontent.com/77112303/211073079-baec6c2a-dc0f-4f82-a604-27c8184792ec.png">
+<img width="700" alt="taste-it4" src="https://user-images.githubusercontent.com/77112303/211073225-9540c31a-7147-44ce-a0ed-4e6261f28e62.png">
 
 Adding a recipe
 
-<img width="700" alt="taste-it3" src="https://user-images.githubusercontent.com/77112303/211062307-c3c55d6c-ca72-4b5a-bfbf-b69b07b5f9b2.png">
+<img width="700" alt="taste-it3" src="https://user-images.githubusercontent.com/77112303/211073119-60497e2c-e4d4-4f90-b351-b57cef2c31e7.png">
+
+
+
+
+
+
+
+
+
+
