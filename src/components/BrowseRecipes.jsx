@@ -13,7 +13,7 @@ const BrowseRecipes = () => {
         axios.get('http://localhost:3001/recipes')
         .then((res) => {
             setRecipes(res.data);
-            console.log(res.data)
+            
         });
     },[]);
 
@@ -38,8 +38,8 @@ const BrowseRecipes = () => {
             {searchedRecipes.map((recipe) => {
                 return (
             <Card   
-            name={recipe.name}
             key={recipe.id}
+            name={recipe.name}
             image={recipe.image}
             id={recipe.id}
             flag={recipe.flag}

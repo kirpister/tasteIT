@@ -8,6 +8,7 @@ import BrowseRecipes from './components/BrowseRecipes';
 import Recipe from './components/Recipe';
 import Home from './components/Home';
 import Layout from './components/Layout';
+import Header from './components/Header';
 
 const App = () => {
 
@@ -29,7 +30,7 @@ const App = () => {
     <BrowserRouter>
 
       <div className='App'>
-
+    <Header switchTheme={switchTheme}/>
         <Routes>
           <Route path='/' element={<Layout />}>
             <Route index element={<Home switchTheme={switchTheme} />} />

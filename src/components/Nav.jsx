@@ -1,5 +1,4 @@
 import React from 'react';
-import useLocalStorage from 'use-local-storage';
 import { NavLink } from 'react-router-dom';
 
 const Nav = () => {

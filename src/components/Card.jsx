@@ -14,7 +14,7 @@ const Card = ({ name, image, country, id }) => {
     axios.get("https://restcountries.com/v3.1/name/" + country).then((res) =>
       setFlag(res.data[0].flags.svg)
     );
-  }, []);
+  }, [country]);
 
     return (
 

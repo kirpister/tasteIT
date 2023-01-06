@@ -53,7 +53,6 @@ const AddRecipe = () => {
 
     const submitHandler = (e) => {
         e.preventDefault();
-        // setAddRecipe({ ...addRecipe, ingredients: addInput });
         
         axios.post('http://localhost:3001/recipes', addRecipe)
         .then((res) => console.log(res));

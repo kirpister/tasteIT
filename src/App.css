@@ -78,9 +78,13 @@ nav ul li a {
   list-style-type: none;
   color: rgba(255, 255, 255, 0.7);
   text-decoration: none;
-  padding: 1rem;
+  padding-right: 1rem;
   letter-spacing: 2px;
   margin-right: 2rem;
+}
+
+nav {
+  margin-right: 9rem;
 }
 
 nav a.active {
@@ -89,6 +93,12 @@ nav a.active {
 
 nav a:hover {
   color: var(--accent-color);
+}
+
+header button {
+  position: absolute;
+  right: 1rem;
+  top: -0.5rem;
 }
 
 
