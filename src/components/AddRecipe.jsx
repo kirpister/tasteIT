@@ -5,46 +5,22 @@ import '../styles/addRecipe.css';
 
 const AddRecipe = () => {
 
-    const [addInput, setAddInput] = useState([{ id: 1, quantity: '', ingredient: '' }]);
-    const [isLoading, setIsLoading] = useState(false);
+    const [addInput, setAddInput] = useState([{ quantity: '', ingredient: '' }]);
     const [countryData, setCountryData] = useState([]);
     const [addRecipe, setAddRecipe] = useState({
+        id: '',
         name: '',
         author: '',
         country: '',
         flag: '',
         description:'',
+        image: '',
         ingredients: [],
         instructions: '',
     })
     
-
-    const addHandler = (e) => {
-        e.preventDefault();
-        setAddInput([...addInput,{ id: addInput.length + 1, quantity: '', ingredient: '' } 
-    ]);
-    }
-
-    const newIngredient = (e, index) => {
-        let ingredList = [...addInput];
-        ingredList[index][e.target.name] = e.target.value;
-        setAddRecipe({ ...addRecipe, addInput: ingredList })
-    }
-
-    const changeHandler = (e) => {
-        setAddRecipe({ ...AddRecipe, [e.target.name]: e.target.value });
-    };
-
-    const submitHandler = (e) => {
-        e.preventDefault();
-        // setAddRecipe({ ...AddRecipe, ingredients: addInput });
-        axios.post('http://localhost:3001/recipes', addRecipe);
-        // .then((res) => console.log(res));
-    };
-
     useEffect(() => {
-        setIsLoading(true);
-    
+            
         axios.get('https://restcountries.com/v3.1/all')
             .then((res) => { 
                 let countriesArr = [];
@@ -55,6 +31,31 @@ const AddRecipe = () => {
     }, []);
 
 
+    const addHandler = (e) => {
+        e.preventDefault();
+        setAddInput([...addInput,{ quantity: '', ingredient: '' } 
+    ]);
+    }
+
+    const newIngredient = (e, index) => {
+        let ingredList = [...addInput];
+        ingredList[index][e.target.name] = e.target.value;
+        setAddInput(ingredList);
+        setAddRecipe({ ...addRecipe, ingredients: addInput })
+    }
+
+    const changeHandler = (e) => {
+        setAddRecipe({ ...addRecipe, [e.target.name]: e.target.value })
+    };
+
+    const submitHandler = (e) => {
+        e.preventDefault();
+        // setAddRecipe({ ...addRecipe, ingredients: addInput });
+        
+        axios.post('http://localhost:3001/recipes', addRecipe)
+        .then((res) => console.log(res));
+    };
+
 
     return (
 
@@ -63,35 +64,35 @@ const AddRecipe = () => {
     
         <div className='form-cont'>
             <h3>Add your recipe here</h3>
-        <form action="">
+        <form onSubmit={submitHandler}>
 
         <div>
             <label htmlFor="name">Name</label>
-            <input type="text" name="name" id="name" value={addRecipe.name} onChange={(e) => changeHandler(e)}/>
+            <input type="text" name="name" onChange={changeHandler}/>
         </div>
 
         <div>
             <label htmlFor="author">Author</label>
-            <input type="text" name="author" id="author" value={addRecipe.author}/>
-        </div>
+            <input type="text" name="author" onChange={changeHandler}/>
+        </div> 
 
         <div>
             <label htmlFor="country">Country of origin</label>
-            <select name="country" id="country" value={addRecipe.country.value} onChange={(e) => changeHandler(e)}>
-            <option value="" disabled>Choose a country</option>
-            {countryData.map((a) => {
-            return ( <option value={a} key={a}>{a}</option>);
+            <select name="country" onChange={changeHandler}>
+            <option value="choice" disabled>Choose a country</option>
+            {countryData.map((c) => {
+            return ( <option value={c} key={c}>{c}</option>);
             })}</select>
         </div>
 
         <div>
             <label htmlFor="description">Description</label>
-            <textarea name="description" id="description" value={addRecipe.description} onChange={(e) => changeHandler(e)}></textarea>
+            <textarea type="text" name="description" onChange={changeHandler}></textarea>
         </div>
 
         <div>
             <label htmlFor="image">Image</label>
-            <input type="text" name="image" id="image" value={addRecipe.image} onChange={(e) => changeHandler(e)}/>
+            <input type="text" name="image" onChange={changeHandler}/>
         </div>
 
         <label htmlFor="ingredients">Ingredients</label>
@@ -99,25 +100,25 @@ const AddRecipe = () => {
         {addInput.map((ingredient, index) => (
             <div key={index} className='row'>
             <div className='input1'>
-            <label htmlFor="">Quantity</label>
-            <input type="text" name="quantity" id="quantity" value={ingredient.quantity} onChange={(e) => newIngredient(e, index)} />
+            <label htmlFor="quantity">Quantity</label>
+            <input type="text" name="quantity" value={ingredient.quantity} onChange={(e) => newIngredient(e, index)} />
             </div>
          
             <div className='input2'>
-            <label htmlFor="">Ingredient</label>
-            <input type="text" name="ingredient" id="ingredient" value={ingredient.name} onChange={(e) => newIngredient(e, index)} />
+            <label htmlFor="ingredient">Ingredient</label>
+            <input type="text" name="ingredient" value={ingredient.ingredient} onChange={(e) => newIngredient(e, index)} />
             </div>
                 
-            </div>))}
+            </div>))}  
          
         <button onClick={addHandler}>Add more</button>
          
         <div>
-            <label htmlFor="">Instructions</label>
-            <textarea name="instructions" id="instructions" value={addRecipe.instructions} onChange={(e) => changeHandler(e)}></textarea>
-        </div>
+            <label htmlFor="instructions">Instructions</label>
+            <textarea type="text" name="instructions" onChange={changeHandler}></textarea>
+        </div> 
 
-         <button onClick={submitHandler}>Submit</button>   
+         <button type='submit'>Submit</button>   
 
         </form>
         </div>

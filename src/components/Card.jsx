@@ -26,7 +26,7 @@ const Card = ({ name, image, country, id }) => {
            
           </div>
 
-          <img className='recipe-img' src={image}></img>
+          <img className='recipe-img' src={image} alt="food-img"></img>
 
           <div className='info-cont'>
           <h4>{name}</h4>

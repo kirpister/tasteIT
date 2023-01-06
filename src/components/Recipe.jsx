@@ -21,12 +21,13 @@ useEffect(() => {
       
         console.log(res.data);
 
-    axios.get("https://restcountries.com/v3.1/name/" + res.data.country).then((res) => { setFlag(res.data[0].flags.svg);
-       
+        axios.get("https://restcountries.com/v3.1/name/" + res.data.country).then((res) => { setFlag(res.data[0].flags.svg);
     })
+    
 })
 
 },[params]);
+
 
 
 
@@ -44,9 +45,9 @@ useEffect(() => {
        <tbody>
          {data.ingredients?.map((ingredient) => {
              return (
-               <tr key={ingredient.name}>
+               <tr key={ingredient.id}>
                  <td>
-                 {ingredient.quantity} {ingredient.unit} - {ingredient.name}
+                 {ingredient.quantity}  -  {ingredient.ingredient}
                  </td>
                </tr> );
          }
@@ -66,11 +67,11 @@ useEffect(() => {
                         
             <div className='instuction-cont'>
             <h4>Instructions:</h4>
-            <p>{data.directions}</p>
+            <p>{data.instructions}</p>
             </div>
-
+            <div><button onClick={() => navigate(-1)}>Go Back</button></div>
             </div>
-          
+            
         </div>
     );
 };  
