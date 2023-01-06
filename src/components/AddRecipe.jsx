@@ -1,9 +1,12 @@
 import React, { useState, useEffect } from 'react';
+import { useNavigate } from 'react-router-dom';
 import axios from 'axios';
 
 import '../styles/addRecipe.css';
 
 const AddRecipe = () => {
+
+    const navigate = useNavigate();
 
     const [addInput, setAddInput] = useState([{ quantity: '', ingredient: '' }]);
     const [countryData, setCountryData] = useState([]);
@@ -54,8 +57,11 @@ const AddRecipe = () => {
         
         axios.post('http://localhost:3001/recipes', addRecipe)
         .then((res) => console.log(res));
+        e.target.reset();
+        navigate('/browserecipes');
     };
 
+    // Note to idiot self, you deserved all the suffering you got for naming the component and state with the same names. 
 
     return (
 
@@ -78,8 +84,8 @@ const AddRecipe = () => {
 
         <div>
             <label htmlFor="country">Country of origin</label>
-            <select name="country" onChange={changeHandler}>
-            <option value="choice" disabled>Choose a country</option>
+            <select name="country" defaultValue={"choice"} onChange={changeHandler}>
+            <option value="choice" disabled={true}>Choose a country</option>
             {countryData.map((c) => {
             return ( <option value={c} key={c}>{c}</option>);
             })}</select>

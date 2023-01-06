@@ -3,8 +3,14 @@ import heroVid from '../assets/video.mp4';
 import '../styles/Home.css';
 
 import { Link } from 'react-router-dom';
+import useLocalStorage from 'use-local-storage';
 
-const Home = () => {
+const Home = ({switchTheme}) => {
+
+    const defaultDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+    const [theme, setTheme] = useLocalStorage('theme', defaultDark ? 'dark' : 'light');
+
+     
     return (
         <main>
             <video className='video' autoPlay loop muted>
@@ -15,6 +21,7 @@ const Home = () => {
                 <h1>tasteIT</h1>
                 <h3>Travel the world from your kitchen!</h3>
                 <Link to="/browserecipes"><button>Browse Recipes</button></Link>
+                <button onClick={switchTheme}>Switch Theme</button> 
             </div>
 
             <div className='main-container'>

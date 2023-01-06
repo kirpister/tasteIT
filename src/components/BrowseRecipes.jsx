@@ -6,6 +6,7 @@ import axios from 'axios';
 
 const BrowseRecipes = () => {
 
+    const [data, setData] = useState({ search: '' });
     const [recipes, setRecipes] = useState([]);
 
     useEffect(() => {
@@ -16,14 +17,25 @@ const BrowseRecipes = () => {
         });
     },[]);
 
+    const inputHandler = (e) => {
+        e.preventDefault();
+        setData({ ...data, [e.target.name]: e.target.value })
+    };
+
+    const searchedRecipes = recipes.filter((recipe) => {
+        return recipe.name.toLowerCase().includes(data.search.toLowerCase());
+    });
 
     return (
         <div className='browse-page'>
         <h3 className='browse-h3'>Take a look at our recipes</h3>
+        <div className='search-cont'>
+            <input type="text" className='input-search' name='search' placeholder='Search for recipe' onChange={inputHandler} />
+        </div>
         <div className='cards-cont'>
             
             
-            {recipes.map((recipe) => {
+            {searchedRecipes.map((recipe) => {
                 return (
             <Card   
             name={recipe.name}

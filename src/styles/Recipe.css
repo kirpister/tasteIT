@@ -1,15 +1,16 @@
 h4 {
     font-family: var(--main-font);
     font-size: 1rem;
-    color: var(--white-color);
+    color: var(--border-color);
 }
 
 .recipe-info h2 {
     margin: 0 0 2rem 1rem;
+    color: var(--border-color);
 }
 
 .food-img {
-    width: 350px;
+    width: 25vw;
     height: auto;
     border-radius: 0.5rem;
     margin: 1rem 0 0 1rem;

@@ -1,20 +1,24 @@
 /* HERO BANNER */
 
 body {
-    background-color: var(--dark-background);
+    /* background: var(--background); */
     font-family: var(--main-font);
-}
+} 
 
 h1, button {
    margin: 1.5rem 0 3rem 1rem;
+}
+
+h1 {
+    color: rgba(255, 255, 255, 0.7);
 }
 
 h3 {
     font-family: var(--main-font);
     font-size: 1.8rem;
     letter-spacing: 2px;
-    color: var(--white-color);
-    margin-bottom: 5rem;
+    color: rgba(255, 255, 255, 0.7);
+    margin: 1rem 0 5rem 1rem;
 }
 
 video {
@@ -40,7 +44,7 @@ video {
     justify-content: space-between;
     align-items: center;
     width: 85%;
-    height: 40vh;
+    height: 35vh;
     margin: 0 auto;
 }
   
@@ -51,7 +55,7 @@ video {
 }
   
 .home-card h4, p {
-    color: var(--white-color);
+    color: var(--border-color);
     margin: 1.5rem 0 1.5rem 1.5rem;
 }
   

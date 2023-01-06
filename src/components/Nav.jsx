@@ -1,10 +1,12 @@
 import React from 'react';
+import useLocalStorage from 'use-local-storage';
 import { NavLink } from 'react-router-dom';
 
 const Nav = () => {
-    return (
+
+  return (
         <nav>
-             <ul>
+            <ul>
                 <li><NavLink to='/'>Home</NavLink></li>
                 <li><NavLink to='/browserecipes'>Recipes</NavLink></li>
                 <li><NavLink to='/add'>Add new recipe</NavLink></li>
