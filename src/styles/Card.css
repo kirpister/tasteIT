@@ -16,15 +16,15 @@
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: auto;
     grid-gap: 3rem;
-    width: 90vw;
+    width: 75vw;
     margin: 0 auto;
     margin-top: 5%;
     margin-bottom: 5%;
 }
 
 .recipe-card {
-    width: 400px;
-    height: 500px;
+    width: 320px;
+    height: 400px;
     border-radius: 0.5rem;
     text-align: center;
     border: 1px solid var(--border-color);
@@ -32,8 +32,8 @@
 }
 
 .recipe-card img {
-    width: 330px;
-    height: 330px;
+    width: 250px;
+    height: 250px;
     object-fit: cover;
     overflow: hidden;
     margin: 2rem 0 1rem 0;
