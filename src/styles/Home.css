@@ -61,5 +61,6 @@ video {
   
 .home-card small {
     color: var(--shrimp-color);
+    font-weight: bold;
     margin: 3.5rem 0 1rem 1.5rem;
 }

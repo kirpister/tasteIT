@@ -1,6 +1,7 @@
 .cards-cont h4 {
     font-size: 1.3rem;
     text-transform: capitalize;
+    margin: 0.3rem;
     color: var(--border-color);
 }
 
@@ -29,14 +30,17 @@
     text-align: center;
     border: 1px solid var(--border-color);
     position: relative;
+    box-shadow: 14px 9px 34px -14px rgba(66,66,66,1);
 }
 
 .recipe-card img {
     width: 250px;
     height: 250px;
+    border-radius: 0.5rem;
     object-fit: cover;
     overflow: hidden;
     margin: 2rem 0 1rem 0;
+    box-shadow: 14px 9px 34px -14px rgba(66,66,66,1);
 }
 
 a {
@@ -46,7 +50,7 @@ a {
 
 .browse-page > .browse-h3 {
     text-align: center;
-    margin-top: 2%;
+    margin-top: 3%;
     color: var(--white-color);
 }
 
@@ -71,6 +75,7 @@ a {
 .search-cont {
     display: flex;
     justify-content: center;
+    margin: -1rem;
 }
 
 /* .input-search {

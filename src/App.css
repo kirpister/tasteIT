@@ -22,10 +22,11 @@ button {
   padding: 10px;
   border-radius: 5px;
   background-color: transparent;
-  border: 1px solid var(--accent-color);
+  border: 1.5px solid var(--accent-color);
   color: var(--accent-color);
   cursor: pointer;
   font-family: var(--main-font);
+  font-weight: bold;
 }
 
 main {

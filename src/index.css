@@ -5,11 +5,12 @@
     --background: rgb(15, 17, 20);
     --border-color: white;
     --logo-font: 'Coda', cursive;
+    
   }
   
   [data-theme='light'] {
     --background: rgb(240, 240, 240);
     --white-color: rgb(48, 48, 48);
-    --accent-color: rgb(1, 144, 37);
+    --accent-color: #fb9417;
     --border-color: #333;
   }

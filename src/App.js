@@ -33,7 +33,7 @@ const App = () => {
     <Header switchTheme={switchTheme}/>
         <Routes>
           <Route path='/' element={<Layout />}>
-            <Route index element={<Home switchTheme={switchTheme} />} />
+            <Route index element={<Home />} />
             <Route path='browserecipes' element={<BrowseRecipes />} />
             <Route path='browserecipes/:singlerecipe' element={<Recipe />}  />
             <Route path='add' element={<AddRecipe />} />
