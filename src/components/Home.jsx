@@ -37,7 +37,7 @@ const Home = () => {
                 <div className='home-card'>
                 <h4>More about our projects</h4>
                 <p>If you're interested in knowing more about our program visit BCH homepage.</p>
-                <a href="http://bc.fi"><small>Business College Helsinki</small></a>    
+                <a href="http://bc.fi" target="_blank" rel="noreferrer"><small>Business College Helsinki</small></a>    
                 </div>
 
                 </div>

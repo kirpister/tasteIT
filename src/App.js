@@ -9,6 +9,7 @@ import Recipe from './components/Recipe';
 import Home from './components/Home';
 import Layout from './components/Layout';
 import Header from './components/Header';
+import ToTop from './components/ToTop';
 
 const App = () => {
 
@@ -28,10 +29,11 @@ const App = () => {
 
     
     <BrowserRouter>
-
+      <ToTop />
       <div className='App'>
-    <Header switchTheme={switchTheme}/>
+        <Header switchTheme={switchTheme}/>
         <Routes>
+         
           <Route path='/' element={<Layout />}>
             <Route index element={<Home />} />
             <Route path='browserecipes' element={<BrowseRecipes />} />
@@ -41,7 +43,7 @@ const App = () => {
         </Routes>
 
       </div>
-
+      
       </BrowserRouter>
       
   );
