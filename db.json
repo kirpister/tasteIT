@@ -519,6 +519,38 @@
         }
       ],
       "instructions": "Paista kalakuutiot, keitä perunat, heitä kaikki maitoon kylpemään hetkeksi ja nauti. "
+    },
+    {
+      "id": 62,
+      "name": "Kalajuttu",
+      "author": "Jenni",
+      "country": "Finland",
+      "flag": "",
+      "description": "Kermainen lohipasta. ",
+      "image": "https://asset-eu.unileversolutions.com/content/dam/unilever/global/recipe_image/214/21456/214561-default.jpg/_jcr_content/renditions/cq5dam.web.1600.1200.jpeg",
+      "ingredients": [
+        {
+          "quantity": "500 g",
+          "ingredient": "lohikuutioita"
+        },
+        {
+          "quantity": "500 g",
+          "ingredient": "pastaa"
+        },
+        {
+          "quantity": "2.5 dl",
+          "ingredient": "ruokekermaa"
+        },
+        {
+          "quantity": "20 g",
+          "ingredient": "tilliä"
+        },
+        {
+          "quantity": "100 g",
+          "ingredient": "sulatejuustoa"
+        }
+      ],
+      "instructions": "Paista lohi, keitä pasta, heitä sekaisin pannulle ja lisää kerma sekä tilli. Kuumenna ja nauti. "
     }
   ]
 }
