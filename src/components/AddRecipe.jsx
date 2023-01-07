@@ -54,8 +54,8 @@ const AddRecipe = () => {
     const submitHandler = (e) => {
         e.preventDefault();
         
-        axios.post('http://localhost:3001/recipes', addRecipe)
-        .then((res) => console.log(res));
+        axios.post('http://localhost:3001/recipes', addRecipe);
+        
         e.target.reset();
         navigate('/browserecipes');
     };
