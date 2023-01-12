@@ -141,10 +141,9 @@ nav a:hover {
 }
 
 .mode-toggle {
-  margin: 1rem 1rem 0 0;
   position: absolute;
-  top: -0.5rem;
-  right: 1rem;
+  top: 0.5rem;
+  right: 1.5rem;
 }
 
 .checkbox-label .ball {
