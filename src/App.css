@@ -38,6 +38,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  position: relative;
 }
 
 header, footer {
@@ -81,11 +82,11 @@ nav ul li a {
   text-decoration: none;
   padding-right: 1rem;
   letter-spacing: 2px;
-  margin-right: 2rem;
+  margin-right: 1rem;
 }
 
 nav {
-  margin-right: 9rem;
+  margin-right: 6rem;
 }
 
 nav a.active {
@@ -96,10 +97,69 @@ nav a:hover {
   color: var(--accent-color);
 }
 
-header button {
+/* header button {
   position: absolute;
   right: 1rem;
   top: -0.5rem;
+} */
+
+/* TOGGLE MODE SWITCH */
+
+.checkbox {
+  opacity: 0;
+  position: absolute;
+}
+
+.checkbox-label {
+  background-color: #333;
+  width: 50px;
+  height: 25px;
+  border-radius: 50px;
+  position: relative;
+  padding: 5px;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.mode-toggle img { 
+  width: 22px;
+  height: 22px;
+}
+
+.moon {
+  position: absolute;
+  top: 2px;
+  right: 2px;
+}
+
+.sun {
+  position: absolute;
+  top: 2px;
+  left: 2px;
+}
+
+.mode-toggle {
+  margin: 1rem 1rem 0 0;
+  position: absolute;
+  top: -0.5rem;
+  right: 1rem;
+}
+
+.checkbox-label .ball {
+  background: rgba(255, 255, 255, 0.679);
+  width: 22px;
+  height: 22px;
+  position: absolute;
+  left: 2px;
+  top: 1px;
+  border-radius: 50%;
+  transition: transform 0.2s linear;
+}
+
+.checkbox:checked + .checkbox-label .ball {
+  transform: translateX(24px);
 }
 
 
