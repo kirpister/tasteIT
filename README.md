@@ -22,11 +22,12 @@ Landing Page
 Browse Recipes, also example of light theme
 
 <img width="700" alt="taste-it2" src="https://user-images.githubusercontent.com/77112303/211073079-baec6c2a-dc0f-4f82-a604-27c8184792ec.png">
-<img width="700" alt="taste-it4" src="https://user-images.githubusercontent.com/77112303/211073225-9540c31a-7147-44ce-a0ed-4e6261f28e62.png">
+<img width="700" alt="taste-it4" src="https://user-images.githubusercontent.com/77112303/211533714-1780057f-f183-4d80-866c-134461cd8d83.png">
 
 Adding a recipe
 
 <img width="700" alt="taste-it3" src="https://user-images.githubusercontent.com/77112303/211073119-60497e2c-e4d4-4f90-b351-b57cef2c31e7.png">
+
 
 
 
