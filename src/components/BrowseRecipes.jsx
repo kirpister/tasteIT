@@ -26,6 +26,10 @@ const BrowseRecipes = () => {
         return recipe.name.toLowerCase().includes(data.search.toLowerCase());
     });
 
+    const toTopHandler = () => {
+        window.scrollTo(0, 0);
+    }
+
     return (
         <div className='browse-page'>
         <h3 className='browse-h3'>Take a look at our recipes</h3>
@@ -51,6 +55,7 @@ const BrowseRecipes = () => {
         })} 
            
         </div>
+        <button className='top-btn' onClick={toTopHandler}>^</button>
         </div>
     );
 };

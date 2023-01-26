@@ -15,7 +15,7 @@ const Header = ({switchTheme}) => {
             {/* <button onClick={switchTheme}>Switch Theme</button>  */}
             <div className='mode-toggle'>
             <input type="checkbox" className="checkbox" id="checkbox" onChange={switchTheme} />
-            <label for="checkbox" className="checkbox-label">
+            <label htmlFor="checkbox" className="checkbox-label">
                 <img className='sun' src={sun} alt="sun" />
                 <img className='moon' src={moon} alt="moon" />
                 <span className="ball"></span>

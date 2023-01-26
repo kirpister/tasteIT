@@ -40,6 +40,7 @@
   },
   "devDependencies": {
     "json-server": "^0.17.1",
+    "netlify-cli": "^12.7.2",
     "use-local-storage": "^2.3.6"
   }
 }

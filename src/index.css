@@ -3,7 +3,7 @@
     --accent-color: rgb(243, 156, 154);
     --white-color: rgba(255, 255, 255, 0.7);
     --background: rgb(15, 17, 20);
-    --border-color: white;
+    --border-color: rgba(244, 235, 235, 0.708);
     --logo-font: 'Coda', cursive;
     
   }
@@ -12,5 +12,6 @@
     --background: rgb(240, 240, 240);
     --white-color: rgb(48, 48, 48);
     --accent-color: #fb9417;
-    --border-color: #333;
+    --border-color: rgb(63, 63, 63);
   }
+  
