@@ -1,5 +1,7 @@
 ## tasteIT recipe application
 
+[tasteIT Recipe App Here!](https://helpful-longma-f58b44.netlify.app/)
+
 Built as an final challenge on React basics course at Business College Helsinki Full Stack Developer program. The aim was to get comfortable with forms and move data from front to back and vice versa. As new challenges we had to figure out how to dynamically render more inputs as needed and fetch data from [Rest Countries API](https://restcountries.com) and put the data into a select menu. As an extra because of personal interest I wanted to create a dark/light theme switch. 
 
 ### Tech Used
@@ -28,6 +30,9 @@ Adding a recipe
 
 <img width="700" alt="taste-it3" src="https://user-images.githubusercontent.com/77112303/211073119-60497e2c-e4d4-4f90-b351-b57cef2c31e7.png">
 
+### Acknowledgement
+
+Cool dark/light theme from [CSS Tricks](https://css-tricks.com/easy-dark-mode-and-multiple-color-themes-in-react/).
 
 
 
