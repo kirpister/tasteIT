@@ -13,7 +13,7 @@ import ToTop from './components/ToTop';
 
 const App = () => {
 
-  const defaultDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+  const defaultDark = window.matchMedia('(prefers-color-scheme: dark)')
   const [theme, setTheme] = useLocalStorage('theme', defaultDark ? 'dark' : 'light');
 
   const switchTheme = () => {
