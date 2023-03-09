@@ -55,7 +55,7 @@ const AddRecipe = () => {
         e.preventDefault();
         
         axios.post('http://localhost:3001/recipes', addRecipe);
-        alert('Succes!');
+        // alert('Succes!');
         e.target.reset();
         navigate('/browserecipes');
     };

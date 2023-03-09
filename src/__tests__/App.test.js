@@ -6,6 +6,7 @@ import App from '../App';
 import renderer from 'react-test-renderer';
 
 
+
 test("renders the correct content", () => {
 
 const root = document.createElement("div");
@@ -26,6 +27,24 @@ describe('Jest snapshot testing suite', () => {
       expect(domTree).toMatchSnapshot();
   });
 });
+
+// Testing external BCH link on the homepage
+
+describe('Testing external link', () => {
+  test('Opens BCH link on a new tab', () => {
+
+    document.addEventListener("DOMContentLoaded", function() {
+      expect(document.querySelector('a').getAttribute('href')).toBe('http://bc.fi');
+    });
+    
+  
+  });
+  });
+
+
+
+
+
 
 
 

@@ -1,10 +1,10 @@
 import axios from 'axios';
 
-// testing api call
+// testing the api call to get recipes
 
 jest.mock('axios');
 
-describe('getRecipes', () => {
+describe('getRecipes api call', () => {
   test('it should fetch recipes from the API', async () => {
     const mockRecipes = [
       { id: 1, name: 'Recipe 1', ingredients: ['Ingredient 1', 'Ingredient 2'], instructions: 'instructions 1' },
