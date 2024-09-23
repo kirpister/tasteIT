@@ -14,7 +14,7 @@ h4 {
     height: auto;
     border-radius: 0.5rem;
     margin: 1rem 0 0 1rem;
-    box-shadow: 14px 9px 34px -14px rgba(66,66,66,1);
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
 .recipe-cont {
@@ -43,7 +43,8 @@ h4 {
     position: absolute;
     right: 10%;
     top: 35%;
-    box-shadow: 14px 9px 34px -14px rgba(66,66,66,1);
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+
 }
 
 table {

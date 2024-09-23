@@ -55,7 +55,7 @@ const BrowseRecipes = () => {
         })} 
            
         </div>
-        <button className='top-btn' onClick={toTopHandler}>&#x21e7;</button>
+        <button className='top-btn' onClick={toTopHandler}>&#x2191;</button>
         </div>
     );
 };

@@ -10,14 +10,14 @@ h1, button {
 }
 
 h1 {
-    color: rgba(255, 255, 255, 0.7);
+    color: rgba(255, 255, 255, 0.8);
 }
 
 h3 {
     font-family: var(--main-font);
     font-size: 1.8rem;
     letter-spacing: 2px;
-    color: rgba(255, 255, 255, 0.7);
+    color: rgba(255, 255, 255, 0.8);
     margin: 1rem 0 5rem 1rem;
 }
 
